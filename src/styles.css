@@ -1,0 +1,212 @@
+body{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items:center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    margin: 24px;
+    flex-direction: column;
+}
+
+.container,.thank-you{
+    background-color:  hsl(216, 12%, 8%);
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    display:flex;
+    flex-direction:column;
+    max-width: 400px;
+}
+
+.thank-you img{
+width:200px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: hsl(213, 19%, 18%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+h2{
+    font-weight: 700;
+    margin-bottom: 0%;
+    padding-left: 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+p.rate-us{
+    font-size:15px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    color: hsl(216, 12%, 54%);
+    font-family: 'Overpass', sans-serif;
+}
+
+.rating-numbers{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Overpass', sans-serif;
+   
+}
+
+.one{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    cursor:pointer;
+}
+
+button.one:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+button.one:focus{
+    background-color:  hsl(217, 12%, 63%);
+}
+
+.two{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+button.two:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+button.two:focus{
+    background-color:  hsl(217, 12%, 63%);
+}
+
+
+.three{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color:hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    cursor:pointer;
+}
+button.three:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+button.three:focus{
+    background-color:  hsl(217, 12%, 63%);
+}
+
+
+.four{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+button.four:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+button.four:focus{
+    background-color:  hsl(217, 12%, 63%);
+}
+
+
+.five{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 44%, 83%);
+    cursor: pointer;
+}
+
+button.five:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+button.five:focus{
+    background-color:  hsl(217, 12%, 63%);
+}
+
+button.Submit{
+    border: none;
+    width: 350px;
+    margin-left: 20px;
+    height: 45px ;
+    margin-top: 30px;
+    border-radius:25px;
+    color:hsl(0, 0%, 100%);
+    background-color:hsl(25, 97%, 53%);
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor:pointer;
+    font-family: 'Overpass', sans-serif;
+    transition: 0.3s;
+
+}
+
+button.Submit:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    text-align: center;
+}
+
+.thank-you p.gray{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    padding: 3px 8px 0;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.thank-you p{
+    color:hsl(216, 12%, 54%)
+}
+
+.hidden{
+    display: none;
+}
+
+.attribution{
+    font-size:14px;
+    text-align: center;
+    color:#fff;
+    margin-top: 32px;
+}
+
+.attribution a{
+    color:hsl(228,45%,44%);
+}
+
+
+
